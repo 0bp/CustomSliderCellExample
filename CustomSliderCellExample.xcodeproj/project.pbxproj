@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A19F56E914D7F0E70093A431 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19F56E814D7F0E70093A431 /* Cocoa.framework */; };
+		A19F56F314D7F0E70093A431 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A19F56F114D7F0E70093A431 /* InfoPlist.strings */; };
+		A19F56F514D7F0E70093A431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F56F414D7F0E70093A431 /* main.m */; };
+		A19F56F914D7F0E70093A431 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A19F56F714D7F0E70093A431 /* Credits.rtf */; };
+		A19F56FC14D7F0E70093A431 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F56FB14D7F0E70093A431 /* AppDelegate.m */; };
+		A19F56FF14D7F0E70093A431 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A19F56FD14D7F0E70093A431 /* MainMenu.xib */; };
+		A19F570714D7F1640093A431 /* CustomSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A19F570614D7F1640093A431 /* CustomSliderCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A19F56E414D7F0E70093A431 /* CustomSliderCellExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSliderCellExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19F56E814D7F0E70093A431 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A19F56EB14D7F0E70093A431 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A19F56EC14D7F0E70093A431 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A19F56ED14D7F0E70093A431 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A19F56F014D7F0E70093A431 /* CustomSliderCellExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomSliderCellExample-Info.plist"; sourceTree = "<group>"; };
+		A19F56F214D7F0E70093A431 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A19F56F414D7F0E70093A431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A19F56F614D7F0E70093A431 /* CustomSliderCellExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomSliderCellExample-Prefix.pch"; sourceTree = "<group>"; };
+		A19F56F814D7F0E70093A431 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A19F56FA14D7F0E70093A431 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A19F56FB14D7F0E70093A431 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A19F56FE14D7F0E70093A431 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A19F570514D7F1640093A431 /* CustomSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSliderCell.h; sourceTree = "<group>"; };
+		A19F570614D7F1640093A431 /* CustomSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSliderCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A19F56E114D7F0E70093A431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19F56E914D7F0E70093A431 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A19F56D914D7F0E70093A431 = {
+			isa = PBXGroup;
+			children = (
+				A19F56EE14D7F0E70093A431 /* CustomSliderCellExample */,
+				A19F56E714D7F0E70093A431 /* Frameworks */,
+				A19F56E514D7F0E70093A431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A19F56E514D7F0E70093A431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56E414D7F0E70093A431 /* CustomSliderCellExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A19F56E714D7F0E70093A431 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56E814D7F0E70093A431 /* Cocoa.framework */,
+				A19F56EA14D7F0E70093A431 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A19F56EA14D7F0E70093A431 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56EB14D7F0E70093A431 /* AppKit.framework */,
+				A19F56EC14D7F0E70093A431 /* CoreData.framework */,
+				A19F56ED14D7F0E70093A431 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A19F56EE14D7F0E70093A431 /* CustomSliderCellExample */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56FA14D7F0E70093A431 /* AppDelegate.h */,
+				A19F56FB14D7F0E70093A431 /* AppDelegate.m */,
+				A19F56FD14D7F0E70093A431 /* MainMenu.xib */,
+				A19F56EF14D7F0E70093A431 /* Supporting Files */,
+				A19F570514D7F1640093A431 /* CustomSliderCell.h */,
+				A19F570614D7F1640093A431 /* CustomSliderCell.m */,
+			);
+			path = CustomSliderCellExample;
+			sourceTree = "<group>";
+		};
+		A19F56EF14D7F0E70093A431 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A19F56F014D7F0E70093A431 /* CustomSliderCellExample-Info.plist */,
+				A19F56F114D7F0E70093A431 /* InfoPlist.strings */,
+				A19F56F414D7F0E70093A431 /* main.m */,
+				A19F56F614D7F0E70093A431 /* CustomSliderCellExample-Prefix.pch */,
+				A19F56F714D7F0E70093A431 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A19F56E314D7F0E70093A431 /* CustomSliderCellExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A19F570214D7F0E70093A431 /* Build configuration list for PBXNativeTarget "CustomSliderCellExample" */;
+			buildPhases = (
+				A19F56E014D7F0E70093A431 /* Sources */,
+				A19F56E114D7F0E70093A431 /* Frameworks */,
+				A19F56E214D7F0E70093A431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomSliderCellExample;
+			productName = CustomSliderCellExample;
+			productReference = A19F56E414D7F0E70093A431 /* CustomSliderCellExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A19F56DB14D7F0E70093A431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A19F56DE14D7F0E70093A431 /* Build configuration list for PBXProject "CustomSliderCellExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A19F56D914D7F0E70093A431;
+			productRefGroup = A19F56E514D7F0E70093A431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A19F56E314D7F0E70093A431 /* CustomSliderCellExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A19F56E214D7F0E70093A431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19F56F314D7F0E70093A431 /* InfoPlist.strings in Resources */,
+				A19F56F914D7F0E70093A431 /* Credits.rtf in Resources */,
+				A19F56FF14D7F0E70093A431 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A19F56E014D7F0E70093A431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19F56F514D7F0E70093A431 /* main.m in Sources */,
+				A19F56FC14D7F0E70093A431 /* AppDelegate.m in Sources */,
+				A19F570714D7F1640093A431 /* CustomSliderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A19F56F114D7F0E70093A431 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19F56F214D7F0E70093A431 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A19F56F714D7F0E70093A431 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19F56F814D7F0E70093A431 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A19F56FD14D7F0E70093A431 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A19F56FE14D7F0E70093A431 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A19F570014D7F0E70093A431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A19F570114D7F0E70093A431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A19F570314D7F0E70093A431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSliderCellExample/CustomSliderCellExample-Prefix.pch";
+				INFOPLIST_FILE = "CustomSliderCellExample/CustomSliderCellExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A19F570414D7F0E70093A431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomSliderCellExample/CustomSliderCellExample-Prefix.pch";
+				INFOPLIST_FILE = "CustomSliderCellExample/CustomSliderCellExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A19F56DE14D7F0E70093A431 /* Build configuration list for PBXProject "CustomSliderCellExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19F570014D7F0E70093A431 /* Debug */,
+				A19F570114D7F0E70093A431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A19F570214D7F0E70093A431 /* Build configuration list for PBXNativeTarget "CustomSliderCellExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19F570314D7F0E70093A431 /* Debug */,
+				A19F570414D7F0E70093A431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A19F56DB14D7F0E70093A431 /* Project object */;
+}
